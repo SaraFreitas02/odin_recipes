@@ -15,6 +15,7 @@ Are you new to The Odin Project? If so, be sure to check out the [`Note for Begi
 | [Disclaimer](#disclaimer) |
 | [Note for Beginners](#note-for-beginners)|
 | [License](#license) |
+| [Code of Conduct](#code-of-conduct) |
 
 <br>
 
@@ -79,6 +80,22 @@ The software is provided "as is", without warranty of any kind.
 **Disclaimer:**  Before using this material, please ensure that you fully understand the terms of the license.
 
 For more details, visit the [License file](LICENSE).
+
+<br>
+
+## Code of Conduct
+
+As a community, we should aim to foster an open and welcoming environment. `By participating in this project in any way, you agree to abide by the following code of conduct`:
+
+- **Be Respectful**: Treat everyone with respect. Harassment, discrimination, or any form of abusive behavior will not be tolerated.
+- **Be Inclusive**: Encourage a diverse and inclusive community. Welcome contributions from people of all backgrounds and experiences.
+- **Be Constructive**: Provide constructive feedback and be open to receiving it. Aim to improve the project and help others grow.
+- **Be Professional**: Maintain a professional attitude in all interactions. Avoid personal attacks and focus on the issue at hand.
+- **Report Issues**: If you witness or experience any violations of this code of conduct, please report them to the project maintainers.
+
+By adhering to these guidelines, we can create a positive and productive environment for everyone involved.
+
+<br>
 
 ---
 `This README file will be updated with more details soon.`

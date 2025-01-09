@@ -5,15 +5,11 @@ body {
     align-items: stretch;
 }
 
-body > *:not(header), header > * {
-    padding: 0 20px 0 20px;
-}
-
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: gray;
+    background-color: gray; /* this is a placeholder color*/
 }
 
 h1 {
@@ -36,7 +32,7 @@ h1 {
     display: flex;
     justify-content: center;
     width: 100%;
-    background-color: gray;
+    background-color: gray; /* this is a placeholder color*/
     padding: 50px 0 20px 0;
 }
 
@@ -47,4 +43,39 @@ h1 {
     align-items: center;
     width: calc(100%/3);
 }
+
+.home-img-div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    position: relative;
+    width: 100%;
+}
+
+.home-img-div img {
+    box-sizing: border-box;
+}
+
+.home-img-div::before {
+    content: "";
+    display: block;
+    background-color: white; /* should match background*/
+    width: 100%;
+    height: 125px;
+    position: absolute;
+    top: -70px;
+    border-radius: 0 0 50% 50%;
+}
+
+.home-img-div::after {
+    content: "";
+    display: block;
+    background-color: white; /* should match backgroung*/
+    width: 100%;
+    height: 125px;
+    position: absolute;
+    bottom: -70px;
+    border-radius: 50% 50% 0 0;
+}
+
 

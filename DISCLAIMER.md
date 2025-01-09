@@ -18,7 +18,7 @@ This material is based on assignments from `The Odin Project`. While the structu
 
 ## Ownership Disclaimer
 
-The recipes featured on this website are sourced from [All Recipes](https://www.allrecipes.com/) and are used here solely for educational purposes as part of a coding exercise. The author does not claim ownership of these recipes, nor are they intended for redistribution.
+The recipes (and related images) featured on this website are sourced from [All Recipes](https://www.allrecipes.com/) and are used here solely for educational purposes as part of a coding exercise. The author does not claim ownership of these recipes (or images), nor are they intended for redistribution.
 
 ## Usage Limitations
 

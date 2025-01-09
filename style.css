@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+
+body > *:not(header), header > * {
+    padding: 0 20px 0 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gray;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+#header-btns {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    margin-top: 10px;
+}
+
+#home-search {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: gray;
+    padding: 50px 0 20px 0;
+}
+
+.home-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: calc(100%/3);
+}
+

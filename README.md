@@ -83,7 +83,7 @@ For more details, visit the [License file](LICENSE).
 
 <br>
 
-## Code of Conduct
+# Code of Conduct
 
 As a community, we should aim to foster an open and welcoming environment. `By participating in this project in any way, you agree to abide by the following code of conduct`:
 

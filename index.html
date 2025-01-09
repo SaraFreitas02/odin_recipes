@@ -1,17 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name='description' content=''>
-    <link rel='stylesheet' type='text/css' href='style.css' />
-    <title>Odin Recipes</title>
-  </head>
-  <body>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name='description' content='Mockup of a recipe website based on an assignment from The Odin Project' />
+  <link rel='stylesheet' type='text/css' href='style.css' />
+  <title>Odin Recipes</title>
+</head>
+
+<body>
+  <header id="home-header" class="header">
     <h1>Odin Recipes</h1>
-    <a href="recipes/lasagna.html">Lasagna</a>
-    <a href="recipes/brownies.html">Brownies</a>
-    <a href="recipes/pancakes.html">Pancakes</a>
+    <button type="button">Account</button>
+    <button type="button">Search-Logo</button>
+    <input type="search" placeholder="What are you craving?" />
+  </header>
+
+  <div class="navbar">
+  <div id="home-favorites" class="home-filter">
+    <h2>User Favorites</h2>
+    <nav id="home-favorites-recipes" class="home-recipes">
+      <a href="recipes/lasagna.html">Lasagna</a>
+      <a href="recipes/brownies.html">Brownies</a>
+      <a href="recipes/pancakes.html">Pancakes</a>
+    </nav>
+  </div>
+
+  <div id="home-winter" class="home-filter">
+    <h2>Winter Vibes</h2>
+    <nav id="home-winter-recipes" class="home-recipes">
+      <a href="#">Hot Chocolate</a>
+      <a href="#">Vegetable Soup</a>
+      <a href="#">Chicken Stew</a>
+    </nav>
+  </div>
+
+  <div id="home-celebration" class="home-filter">
+    <h2>To Celebrate</h2>
+    <nav id="home-celebration-recipes" class="home-recipes">
+      <a href="#">Roasted Turkey</a>
+      <a href="#">Butter Fried Shrimps</a>
+      <a href="#">Birthday Muffins</a>
+    </nav>
+  </div>
+</div>
+
   <script src='script.js'></script>
-  </body>
+</body>
 </html>

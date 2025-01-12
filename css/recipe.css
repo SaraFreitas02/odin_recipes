@@ -19,14 +19,30 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 50px 0 0 0;
+    padding-bottom: 0;
 }
 
 .recipe-changer > * {
-    padding: 5px;
+    padding: 0 50px 0 50px;
+    margin: 0;
+}
+
+.recipe-changer > a > i {
+    font-size: 50px;
 }
 
 h2 {
     font-size: 50px;
+}
+
+.recipe-rating-figcaption {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 50px 0;
+    padding-top: 0;
 }
 
 /*Image and Description*/
@@ -41,6 +57,26 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0 0 25px 0;
+}
+
+.recipe-description {
+    margin: 50px 0 50px 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.eval-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray; /*placeholder color*/
+    width: 100%;
+}
+
+.eval-btns button {
+    font-size: 20px;
+    padding: 8px 20px 8px 20px;
 }
 
 /*Recipe*/

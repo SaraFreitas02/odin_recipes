@@ -15,14 +15,17 @@
 
   <!--Website Banner-->
   <header>
-    <a href="../index.html">
-      <h1>Odin Recipes</h1>
-    </a>
+    <div class="brand" id="brand">
+      <i class="fa-solid fa-stroopwafel" aria-hidden="true"></i>
+      <a href="../index.html">
+        <h1>Odin Recipes</h1>
+      </a>
+    </div>
     <div class="header-btns">
-      <button class="account-btn" type="button">Account</button>
+      <button class="account-btn" type="button"><i class="fa-solid fa-user" aria-label="My Account"></i></button>
       <div class="header-search">
         <input type="search" placeholder="What are you craving?" />
-        <button type="button">Search-Logo</button>
+        <button type="button"><i class="fa-solid fa-magnifying-glass" aria-label="Search a Recipe"></i></button>
       </div>
     </div>
   </header>
@@ -32,19 +35,22 @@
 
       <!--Recipes Toggle-->
       <nav class="recipe-changer">
-        <a href="#" class="back-btn" id="back-btn">Back</a>
+        <a href="#" class="back-btn" id="back-btn"><i class="fa-solid fa-arrow-left"
+            aria-label="Previous Recipe"></i></a>
         <h2>Lasagna</h2>
-        <a href="#" class="next-btn" id="next-btn">Next</a>
+        <a href="#" class="next-btn" id="next-btn"><i class="fa-solid fa-arrow-right" aria-label="Next Recipe"></i></a>
       </nav>
 
       <!--Recipe Rating and Figcaption-->
-      <figcaption for='lasagna-image'>
-        <p>World's Best Lasagna - <a href="https://www.allrecipes.com/recipe/23600/worlds-best-lasagna/" target="_blank"
-            rel="noopener noreferrer">From All Recipes</a></p>
-      </figcaption>
-      <div class="recipe-rating"> <!-- Test of placement -->
-        <span class="header-stars">★★★★★</span> <!-- Placeholder stars-->
-        <span class="num-reviews">X reviews</span>
+      <div class="recipe-rating-figcaption">
+        <figcaption for='lasagna-image'>
+          <p>World's Best Lasagna - <a href="https://www.allrecipes.com/recipe/23600/worlds-best-lasagna/"
+              target="_blank" rel="noopener noreferrer">From All Recipes</a></p>
+        </figcaption>
+        <div class="recipe-rating"> <!-- Test of placement -->
+          <span class="header-stars">★★★★★</span> <!-- Placeholder stars-->
+          <span class="num-reviews">X reviews</span>
+        </div>
       </div>
     </div>
 
@@ -62,10 +68,10 @@
 
       <!--Recipe Description and Buttons-->
       <div class="eval-btns">
-        <button class="like-btn" type="button">Like</button>
-        <button class="review-btn" type="button">Review</button>
+        <button class="like-btn" type="button"><i class="fa-solid fa-heart" aria-label="Like recipe"></i></button>
+        <button class="review-btn" type="button"><i class="fa-solid fa-comment" aria-label="Leave a review"></i></button>
       </div>
-      <description>
+      <description class="recipe-description" id="recipe-description">
         <p>This lasagna recipe is a <em>hearty and delicious</em> dish, perfect for family dinners or special occasions.
           It features layers of rich meat sauce, creamy ricotta cheese, and gooey mozzarella, all baked to perfection.
           The
@@ -91,8 +97,8 @@
             <li><span>2 tbsp</span> white sugar</li>
             <li><span>1 1/2 tsp</span> dried basil leaves</li>
             <li><span>1/2 tsp</span> fennel seeds</li>
-            </ul>
-            <ul>
+          </ul>
+          <ul>
             <li><span>1 tsp</span> Italian seasoning</li>
             <li><span>1 tbsp</span> salt</li>
             <li><span>1/4 tsp</span> ground black pepper</li>
@@ -103,8 +109,8 @@
             <li><span>3/4 tsp</span> salt</li>
             <li><span>3/4 lb</span> mozzarella cheese, sliced</li>
             <li><span>3/4 cup</span> grated Parmesan cheese</li>
-            </ul>
-          </div>
+          </ul>
+        </div>
         <button class="toggle-btn" id="measure-toggle-btn" type="button">Grams</button>
       </section>
 

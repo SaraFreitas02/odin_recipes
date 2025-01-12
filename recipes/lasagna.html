@@ -11,6 +11,8 @@
 </head>
 
 <body>
+
+  <!--Website Banner-->
   <header>
     <a href="../index.html">
       <h1>Odin Recipes</h1>
@@ -25,30 +27,39 @@
   </header>
 
   <main class="recipe-main">
-    <nav class="recipe-header">
-      <a href="#" class="back-btn">Back</a>
-      <div class="recipe-info">
+    <div class="recipe-header">
+
+      <!--Recipes Toggle-->
+      <nav class="recipe-changer">
+        <a href="#" class="back-btn" id="back-btn">Back</a>
         <h2>Lasagna</h2>
-        <figcaption for='lasagna-image'>
-          <p>World's Best Lasagna - <a href="https://www.allrecipes.com/recipe/23600/worlds-best-lasagna/"
-              target="_blank" rel="noopener noreferrer">From All Recipes</a></p>
-        </figcaption>
-        <div class="recipe-rating"> <!-- Test of placement -->
-          <span class="stars">★★★★★</span> <!-- Placeholder stars-->
-          <span class="num-reviews">X reviews</span>
-        </div>
+        <a href="#" class="next-btn" id="next-btn">Next</a>
+      </nav>
+
+      <!--Recipe Rating and Figcaption-->
+      <figcaption for='lasagna-image'>
+        <p>World's Best Lasagna - <a href="https://www.allrecipes.com/recipe/23600/worlds-best-lasagna/" target="_blank"
+            rel="noopener noreferrer">From All Recipes</a></p>
+      </figcaption>
+      <div class="recipe-rating"> <!-- Test of placement -->
+        <span class="header-stars">★★★★★</span> <!-- Placeholder stars-->
+        <span class="num-reviews">X reviews</span>
       </div>
-      <a href="#" class="next-btn">Next</a>
-    </nav>
+    </div>
+
     <div class="recipe-presentation">
-      <div class="recipe-page-img"> <!-- Test of Layout -->
+
+      <!--Carousel-->
+      <section class="recipe-carousel" id="recipe-carousel"> <!--Placeholder images-->
         <img class="recipe-image" id="lasagna1-image" name="lasagna-image"
           src='https://www.allrecipes.com/thmb/nb2eEifCwlw1yc5gnXMwBy4BkXQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/23600-worlds-best-lasagna-DDMFS-2x1-1193-40ded59b2a224312b66bdafbb885adc0.jpg'
           alt='Lasagna Image' width="500px" height="300px" />
         <img class="recipe-image" id="lasagna2-image" name="lasagna-image"
-          src='https://www.allrecipes.com/thmb/nb2eEifCwlw1yc5gnXMwBy4BkXQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/23600-worlds-best-lasagna-DDMFS-2x1-1193-40ded59b2a224312b66bdafbb885adc0.jpg'
+          src='https://www.southernliving.com/thmb/iI2Pd7BIh0MFuQ79WIEtgli9Ji4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Extra_Easy_Lasagna_006_4x3-41b0a478514c43e9baed0659bd362625.jpg'
           alt='Lasagna Image' width="500px" height="300px" />
-      </div>
+      </section>
+
+      <!--Recipe Description and Buttons-->
       <div class="eval-btns">
         <button class="like-btn" type="button">Like</button>
         <button class="review-btn" type="button">Review</button>
@@ -61,36 +72,39 @@
           satisfying meal that everyone will love.</p>
       </description>
     </div>
+
     <div class="actual-recipe">
-      <div class="step-toggle">
-        <button class="toggle-btn" type="button">Ingredients</button>
-        <button class="toggle-btn" type="button">Preparation</button>
-      </div>
+      <button class="toggle-btn" id="step-toggle-btn" type="button">Preparation</button>
       <section class="ingredients">
         <h3>Ingredients</h3>
-        <ul>
-          <li>1 pound sweet Italian sausage</li>
-          <li>3/4 pound lean ground beef</li>
-          <li>1/2 cup minced onion</li>
-          <li>2 cloves garlic, crushed</li>
-          <li>1 (28 ounce) can crushed tomatoes</li>
-          <li>2 (6 ounce) cans tomato paste</li>
-          <li>2 (6.5 ounce) cans canned tomato sauce</li>
-          <li>1/2 cup water</li>
-          <li>2 tablespoons white sugar</li>
-          <li>1 1/2 teaspoons dried basil leaves</li>
-          <li>1/2 teaspoon fennel seeds</li>
-          <li>1 teaspoon Italian seasoning</li>
-          <li>1 tablespoon salt</li>
-          <li>1/4 teaspoon ground black pepper</li>
-          <li>4 tablespoons chopped fresh parsley</li>
-          <li>12 lasagna noodles</li>
-          <li>16 ounces ricotta cheese</li>
-          <li>1 egg</li>
-          <li>3/4 teaspoon salt</li>
-          <li>3/4 pound mozzarella cheese, sliced</li>
-          <li>3/4 cup grated Parmesan cheese</li>
-        </ul>
+        <div class="ingredients-columns">
+          <ul>
+            <li><span>1 lb</span> sweet Italian sausage</li>
+            <li><span>3/4 lb</span> lean ground beef</li>
+            <li><span>1/2 cup</span> minced onion</li>
+            <li><span>2 cloves</span> garlic, crushed</li>
+            <li><span>28 oz</span> crushed tomatoes</li>
+            <li><span>6 oz</span> tomato paste</li>
+            <li><span>6.5 oz</span> canned tomato sauce</li>
+            <li><span>1/2 cup</span> water</li>
+            <li><span>2 tbsp</span> white sugar</li>
+            <li><span>1 1/2 tsp</span> dried basil leaves</li>
+            <li><span>1/2 tsp</span> fennel seeds</li>
+            </ul>
+            <ul>
+            <li><span>1 tsp</span> Italian seasoning</li>
+            <li><span>1 tbsp</span> salt</li>
+            <li><span>1/4 tsp</span> ground black pepper</li>
+            <li><span>4 tbsp</span> chopped fresh parsley</li>
+            <li><span>12</span> lasagna noodles</li>
+            <li><span>16 oz</span> ricotta cheese</li>
+            <li><span>1</span> egg</li>
+            <li><span>3/4 tsp</span> salt</li>
+            <li><span>3/4 lb</span> mozzarella cheese, sliced</li>
+            <li><span>3/4 cup</span> grated Parmesan cheese</li>
+            </ul>
+          </div>
+        <button class="toggle-btn" id="measure-toggle-btn" type="button">Grams</button>
       </section>
 
       <section class="preparation">
@@ -134,6 +148,13 @@
 
     <section class="user-comments">
       <h3>User's Thoughts</h3>
+      <div class="comments-div">
+        <div class="user-and-stars">
+          <h4 class="comment-user">User</h4> <!-- Placeholder username-->
+          <span class="comment-stars">★★★★★</span> <!-- Placeholder stars-->
+        </div>
+        <p class="comment-text">This is a comment</p> <!-- Placeholder text-->
+      </div>
     </section>
   </main>
 

@@ -39,6 +39,15 @@ button { /*button reset*/
     padding-right: 20px;
 }
 
+.header-btns button {
+    font-size: 23px;
+    padding: 10px;
+}
+
+.account-btn {
+    margin-right: 5px;
+}
+
 .header-search {
     display: flex;
     justify-content: center;

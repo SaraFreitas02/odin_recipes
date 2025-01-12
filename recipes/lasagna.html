@@ -5,14 +5,16 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name='description' content='Lasagna Recipe'>
-  <link rel='stylesheet' type='text/css' href='../style.css' />
-  <link rel='stylesheet' type='text/css' href='../recipe.css' />
+  <link rel='stylesheet' type='text/css' href='../css/style.css' />
+  <link rel='stylesheet' type='text/css' href='../css/recipe.css' />
   <title>Lasagna</title>
 </head>
 
 <body>
   <header>
-    <a href="../index.html"><h1>Odin Recipes</h1></a>
+    <a href="../index.html">
+      <h1>Odin Recipes</h1>
+    </a>
     <div class="header-btns">
       <button class="account-btn" type="button">Account</button>
       <div class="header-search">
@@ -22,65 +24,119 @@
     </div>
   </header>
 
-  <h1>Lasagna</h1>
-  <img id="lasagna-image"
-    src='https://www.allrecipes.com/thmb/nb2eEifCwlw1yc5gnXMwBy4BkXQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/23600-worlds-best-lasagna-DDMFS-2x1-1193-40ded59b2a224312b66bdafbb885adc0.jpg'
-    alt='Lasagna Image' width="500px" height="300px" />
-  <figcaption for='lasagna-image'>
-    <p>World's Best Lasagna - <a href="https://www.allrecipes.com/recipe/23600/worlds-best-lasagna/" target="_blank"
-        rel="noopener noreferrer">From All Recipes</a></p>
-  </figcaption>
-  <description>
-<p>This lasagna recipe is a <em>hearty and delicious</em> dish, perfect for family dinners or special occasions. It features layers of rich meat sauce, creamy ricotta cheese, and gooey mozzarella, all baked to perfection. The combination of Italian sausage, ground beef, and a blend of tomatoes and spices creates a flavorful and satisfying meal that everyone will love.</p>
-</description>
+  <main class="recipe-main">
+    <nav class="recipe-header">
+      <a href="#" class="back-btn">Back</a>
+      <div class="recipe-info">
+        <h2>Lasagna</h2>
+        <figcaption for='lasagna-image'>
+          <p>World's Best Lasagna - <a href="https://www.allrecipes.com/recipe/23600/worlds-best-lasagna/"
+              target="_blank" rel="noopener noreferrer">From All Recipes</a></p>
+        </figcaption>
+        <div class="recipe-rating"> <!-- Test of placement -->
+          <span class="stars">★★★★★</span> <!-- Placeholder stars-->
+          <span class="num-reviews">X reviews</span>
+        </div>
+      </div>
+      <a href="#" class="next-btn">Next</a>
+    </nav>
+    <div class="recipe-presentation">
+      <div class="recipe-page-img"> <!-- Test of Layout -->
+        <img class="recipe-image" id="lasagna1-image" name="lasagna-image"
+          src='https://www.allrecipes.com/thmb/nb2eEifCwlw1yc5gnXMwBy4BkXQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/23600-worlds-best-lasagna-DDMFS-2x1-1193-40ded59b2a224312b66bdafbb885adc0.jpg'
+          alt='Lasagna Image' width="500px" height="300px" />
+        <img class="recipe-image" id="lasagna2-image" name="lasagna-image"
+          src='https://www.allrecipes.com/thmb/nb2eEifCwlw1yc5gnXMwBy4BkXQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/23600-worlds-best-lasagna-DDMFS-2x1-1193-40ded59b2a224312b66bdafbb885adc0.jpg'
+          alt='Lasagna Image' width="500px" height="300px" />
+      </div>
+      <div class="eval-btns">
+        <button class="like-btn" type="button">Like</button>
+        <button class="review-btn" type="button">Review</button>
+      </div>
+      <description>
+        <p>This lasagna recipe is a <em>hearty and delicious</em> dish, perfect for family dinners or special occasions.
+          It features layers of rich meat sauce, creamy ricotta cheese, and gooey mozzarella, all baked to perfection.
+          The
+          combination of Italian sausage, ground beef, and a blend of tomatoes and spices creates a flavorful and
+          satisfying meal that everyone will love.</p>
+      </description>
+    </div>
+    <div class="actual-recipe">
+      <div class="step-toggle">
+        <button class="toggle-btn" type="button">Ingredients</button>
+        <button class="toggle-btn" type="button">Preparation</button>
+      </div>
+      <section class="ingredients">
+        <h3>Ingredients</h3>
+        <ul>
+          <li>1 pound sweet Italian sausage</li>
+          <li>3/4 pound lean ground beef</li>
+          <li>1/2 cup minced onion</li>
+          <li>2 cloves garlic, crushed</li>
+          <li>1 (28 ounce) can crushed tomatoes</li>
+          <li>2 (6 ounce) cans tomato paste</li>
+          <li>2 (6.5 ounce) cans canned tomato sauce</li>
+          <li>1/2 cup water</li>
+          <li>2 tablespoons white sugar</li>
+          <li>1 1/2 teaspoons dried basil leaves</li>
+          <li>1/2 teaspoon fennel seeds</li>
+          <li>1 teaspoon Italian seasoning</li>
+          <li>1 tablespoon salt</li>
+          <li>1/4 teaspoon ground black pepper</li>
+          <li>4 tablespoons chopped fresh parsley</li>
+          <li>12 lasagna noodles</li>
+          <li>16 ounces ricotta cheese</li>
+          <li>1 egg</li>
+          <li>3/4 teaspoon salt</li>
+          <li>3/4 pound mozzarella cheese, sliced</li>
+          <li>3/4 cup grated Parmesan cheese</li>
+        </ul>
+      </section>
 
-<h2>Ingredients</h2>
-<ul>
-  <li>1 pound sweet Italian sausage</li>
-  <li>3/4 pound lean ground beef</li>
-  <li>1/2 cup minced onion</li>
-  <li>2 cloves garlic, crushed</li>
-  <li>1 (28 ounce) can crushed tomatoes</li>
-  <li>2 (6 ounce) cans tomato paste</li>
-  <li>2 (6.5 ounce) cans canned tomato sauce</li>
-  <li>1/2 cup water</li>
-  <li>2 tablespoons white sugar</li>
-  <li>1 1/2 teaspoons dried basil leaves</li>
-  <li>1/2 teaspoon fennel seeds</li>
-  <li>1 teaspoon Italian seasoning</li>
-  <li>1 tablespoon salt</li>
-  <li>1/4 teaspoon ground black pepper</li>
-  <li>4 tablespoons chopped fresh parsley</li>
-  <li>12 lasagna noodles</li>
-  <li>16 ounces ricotta cheese</li>
-  <li>1 egg</li>
-  <li>3/4 teaspoon salt</li>
-  <li>3/4 pound mozzarella cheese, sliced</li>
-  <li>3/4 cup grated Parmesan cheese</li>
-</ul>
+      <section class="preparation">
+        <h3>Preparation</h3>
+        <ol>
+          <li>In a large pot or Dutch oven, cook the sausage, ground beef, onion, and garlic over medium heat until
+            browned.
+            Add the crushed tomatoes, tomato paste, tomato sauce, and water. Season with sugar, basil, fennel seeds,
+            Italian
+            seasoning, 1 tablespoon of salt, pepper, and 2 tablespoons of parsley. Cover and simmer for about 1 1/2
+            hours,
+            stirring occasionally.</li>
+          <li>Fill a large pot with lightly salted water and bring to a boil. Cook the lasagna noodles in the boiling
+            water
+            for 8 to 10 minutes. Drain the noodles and rinse with cold water. In a mixing bowl, combine the ricotta
+            cheese,
+            egg, remaining parsley, and 1/2 teaspoon of salt.</li>
+          <li>Preheat oven to 375 degrees F (190 degrees C).</li>
+          <li>To assemble, spread 1 1/2 cups of meat sauce in the bottom of a 9x13-inch baking dish. Arrange 6 noodles
+            lengthwise over the meat sauce. Spread half of the ricotta cheese mixture over the noodles. Top with
+            one-third
+            of
+            the mozzarella cheese slices. Spoon 1 1/2 cups of meat sauce over the mozzarella, and sprinkle with 1/4 cup
+            Parmesan cheese. Repeat the layers, and top with the remaining mozzarella and Parmesan cheese. Cover with
+            foil:
+            to
+            prevent sticking, either spray the foil with cooking spray or ensure the foil does not touch the cheese.
+          </li>
+          <li>Bake in preheated oven for 25 minutes. Remove foil, and bake an additional 25 minutes. Cool for 15 minutes
+            before
+            serving.</li>
+        </ol>
+      </section>
+    </div>
 
-  <h2>Preparation</h2>
-  <ol>
-    <li>In a large pot or Dutch oven, cook the sausage, ground beef, onion, and garlic over medium heat until browned.
-      Add the crushed tomatoes, tomato paste, tomato sauce, and water. Season with sugar, basil, fennel seeds, Italian
-      seasoning, 1 tablespoon of salt, pepper, and 2 tablespoons of parsley. Cover and simmer for about 1 1/2 hours,
-      stirring occasionally.</li>
-    <li>Fill a large pot with lightly salted water and bring to a boil. Cook the lasagna noodles in the boiling water
-      for 8 to 10 minutes. Drain the noodles and rinse with cold water. In a mixing bowl, combine the ricotta cheese,
-      egg, remaining parsley, and 1/2 teaspoon of salt.</li>
-    <li>Preheat oven to 375 degrees F (190 degrees C).</li>
-    <li>To assemble, spread 1 1/2 cups of meat sauce in the bottom of a 9x13-inch baking dish. Arrange 6 noodles
-      lengthwise over the meat sauce. Spread half of the ricotta cheese mixture over the noodles. Top with one-third of
-      the mozzarella cheese slices. Spoon 1 1/2 cups of meat sauce over the mozzarella, and sprinkle with 1/4 cup
-      Parmesan cheese. Repeat the layers, and top with the remaining mozzarella and Parmesan cheese. Cover with foil: to
-      prevent sticking, either spray the foil with cooking spray or ensure the foil does not touch the cheese.</li>
-    <li>Bake in preheated oven for 25 minutes. Remove foil, and bake an additional 25 minutes. Cool for 15 minutes
-      before
-      serving.</li>
-  </ol>
+    <div class="learn-more">
+      <p> Would you like to learn more about this recipe? <br> Visit: <a
+          href="https://www.allrecipes.com/recipe/23600/worlds-best-lasagna/" target="_blank"
+          rel="noopener noreferrer">All Recipes</a></p>
+    </div>
 
-  <a href="https://www.allrecipes.com/recipe/23600/worlds-best-lasagna/" target="_blank" rel="noopener noreferrer">Know
-    more</a>
+    <section class="user-comments">
+      <h3>User's Thoughts</h3>
+    </section>
+  </main>
+
   <script src='script.js'></script>
 </body>
 

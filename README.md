@@ -47,15 +47,16 @@ The website must:
 
 - The information in this document and repository is for `educational purposes and personal learning` as part of an assignment from The Odin Project. 
 
-- While the structure or topics may be similar to the assignments, the `code and implementation are original`. 
+- While the structure or topics may be similar to other assignments, the `code and implementation are original`. 
 
-- `Recipes are sourced from All Recipes` and used solely for educational purposes. 
+- `Recipes are sourced from All Recipes` and are used solely for educational purposes. 
+Media and icons are also sourced externally. For more information, visit the [Attributions File](./docs/ATTRIBUTIONS.md).
 
 - The content is provided "as is" `without warranties` and may not be suitable for production use. The `user assumes all responsibility` for ensuring the code and content meet their requirements. 
 
 - The authors or contributors are `not liable for any damages` arising from the use or inability to use the information provided.
 
-For more information visit the [Disclaimers File](DISCLAIMER.md).
+For more information visit the [Disclaimer File](./docs/DISCLAIMER.md).
 
 <br>
 
@@ -79,7 +80,7 @@ The software is provided "as is", without warranty of any kind.
 
 **Disclaimer:**  Before using this material, please ensure that you fully understand the terms of the license.
 
-For more details, visit the [License file](LICENSE).
+For more details, visit the [License file](./docs/LICENSE).
 
 <br>
 

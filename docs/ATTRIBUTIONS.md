@@ -39,12 +39,40 @@ This project utilizes the following icons from [Font Awesome](https://fontawesom
 | Comment          | _fa-solid fa-comment_          | Leave a review  | Recipes page   |
 
 <br>
+<br>
 
 ---
 
 ## All Recipes
 
-`This file will soon be updated with more thorough information`
+Both _recipes_ and _images_ have been sourced from [All Recipes](https://www.allrecipes.com/) for educational purposes only.
+
+The author of this project does not imply any endorsement by [All Recipes](https://www.allrecipes.com/), its users, or its creators. The recipes were selected randomly, and their inclusion does not reflect the author's approval or endorsement of them.
+
+<br>
+
+### Recipes
+
+| Recipe                                                                                   | Submitted by  |
+| ---------------------------------------------------------------------------------------- | ------------- |
+| **[World's Best Lasagna](https://www.allrecipes.com/recipe/23600/worlds-best-lasagna/)** | John Chandler |
+| **[Best Brownies](https://www.allrecipes.com/recipe/10549/best-brownies/)**              | Angie         |
+| **[Easy Pancakes](https://www.allrecipes.com/recipe/45396/easy-pancakes/)**              | Sharon Holt   |
+
+<br>
+
+### Images
+
+| Image    | Featured in                     | Sourced from    | Submitted by |
+| -------- | ------------------------------- |------------------ | ------------ |
+| Lasagna  | Home Carousel and Lasagna Page  | [World's Best Lasagna](https://www.allrecipes.com/recipe/23600/worlds-best-lasagna/) | Dotdash Meredith Food Studios |
+| Brownies | Home Carousel and Brownies Page | [Best Brownies](https://www.allrecipes.com/recipe/10549/best-brownies/) |  Kim |
+| Pancakes | Home Carousel and Pancakes Page | [Easy Pancakes](https://www.allrecipes.com/recipe/45396/easy-pancakes/) | Lanacowan93| 
+
+<br>
+<br>
+
+---
 
 # Disclaimer
 

@@ -6,6 +6,7 @@
 | ----------------------------- |
 | [Font Awesome](#font-awesome) |
 | [All Recipes](#all-recipes)   |
+| [Southern Living](#southern-living)   |
 | [Disclaimer](#disclaimer)     |
 
 <br>
@@ -74,6 +75,16 @@ The author of this project does not imply any endorsement by [All Recipes](https
 
 ---
 
+## Southern Living
+One of the [lasagna images](https://www.southernliving.com/thmb/iI2Pd7BIh0MFuQ79WIEtgli9Ji4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Extra_Easy_Lasagna_006_4x3-41b0a478514c43e9baed0659bd362625.jpg) featured in the *Lasagna Recipe Page* is sourced from the **[Extra Easy Lasagna Recipe](https://www.southernliving.com/recipes/extra-easy-lasagna)** from **[Southern Living](https://www.southernliving.com/)**.
+
+This image is credited to `Caitlin Bensel` and the food styling to `Torie Cox`.
+
+<br>
+<br>
+
+---
+
 # Disclaimer
 
-The author of this project does not claim ownership of any of these materials and also does not imply any endorsement from their respective owners.
+The author of this project does not claim ownership of any of the materials mentioned above and also does not imply any endorsement from their respective owners.

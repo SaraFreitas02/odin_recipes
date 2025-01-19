@@ -15,6 +15,7 @@ header {
     align-items: center;
     background-color: gray; /* this is a placeholder color*/
     width: 100%;
+    box-shadow: 2px 2px 5px black;
 }
 
 button { /*button reset*/
@@ -30,11 +31,18 @@ button { /*button reset*/
     align-items: center;
 }
 
-.brand > i, h1 {
-    font-size: 45px;
-    padding-right: 10px;
+.brand a {
+    text-decoration: none;
+    color: black; /* this is a placeholder color*/
 }
 
+.brand > i, h1 {
+    font-size: 45px;
+}
+
+.brand > i {
+    padding-bottom: 5px;
+}
 .header-btns {
     display: flex;
     justify-content: center;
@@ -101,7 +109,7 @@ button { /*button reset*/
 .home-img-div::after {
     content: "";
     display: block;
-    background-color: white; /* should match backgroung*/
+    background-color: white; /* should match background*/
     width: 100%;
     height: 125px;
     position: absolute;

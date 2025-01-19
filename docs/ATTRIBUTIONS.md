@@ -2,12 +2,13 @@
 
 <br>
 
-| **Table of Contents**               |
-| ----------------------------------- |
-| [Font Awesome](#font-awesome)       |
-| [All Recipes](#all-recipes)         |
-| [Southern Living](#southern-living) |
-| [Disclaimer](#disclaimer)           |
+| **Table of Contents**                     |
+| ----------------------------------------- |
+| [Font Awesome](#font-awesome)             |
+| [All Recipes](#all-recipes)               |
+| [Southern Living](#southern-living)       |
+| [King Arthur Baking](#king-arthur-baking) |
+| [Disclaimer](#disclaimer)                 |
 
 <br>
 
@@ -66,11 +67,12 @@ The author of this project **does not imply any endorsement** by [All Recipes](h
 
 ### Images
 
-| Image                                                                                                                                                                                                                     | Featured in                     | Sourced from                                                                         | Submitted by                    |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------- | ------------------------------------------------------------------------------------ | ------------------------------- |
-| [Lasagna](<https://www.allrecipes.com/thmb/nb2eEifCwlw1yc5gnXMwBy4BkXQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/23600-worlds-best-lasagna-DDMFS-2x1-1193-40ded59b2a224312b66bdafbb885adc0.jpg>)         | Home Carousel and Lasagna Page  | [World's Best Lasagna](https://www.allrecipes.com/recipe/23600/worlds-best-lasagna/) | _Dotdash Meredith Food Studios_ |
-| [Brownies](<https://www.allrecipes.com/thmb/sYsz1rtAxB8bhL5FTB-Y__HgRjw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/10549best-browniesKimvideo4x3-fc60972f21104322a02b4347b657daed.jpg>)      | Home Carousel and Brownies Page | [Best Brownies](https://www.allrecipes.com/recipe/10549/best-brownies/)              | _Kim_                           |
-| [Pancakes](<https://www.allrecipes.com/thmb/jBg2wEN3X3HaYrME4D-vbX966cI=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/45396-easy-pancakes-lanacowan93-4x3-27d49508ff684023843d74f334bfc285.jpg>) | Home Carousel and Pancakes Page | [Easy Pancakes](https://www.allrecipes.com/recipe/45396/easy-pancakes/)              | _Lanacowan93_                   |
+| Image                                                                                                                                                                                                                       | Featured in                     | Sourced from                                                                         | Credited to                      |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------- | ------------------------------------------------------------------------------------ | -------------------------------- |
+| [Lasagna](<https://www.allrecipes.com/thmb/nb2eEifCwlw1yc5gnXMwBy4BkXQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/23600-worlds-best-lasagna-DDMFS-2x1-1193-40ded59b2a224312b66bdafbb885adc0.jpg>)           | Home Carousel and Lasagna Page  | [World's Best Lasagna](https://www.allrecipes.com/recipe/23600/worlds-best-lasagna/) | _Dotdash Meredith Food Studios_  |
+| [Brownies](<https://www.allrecipes.com/thmb/sYsz1rtAxB8bhL5FTB-Y__HgRjw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/10549best-browniesKimvideo4x3-fc60972f21104322a02b4347b657daed.jpg>)        | Home Carousel and Brownies Page | [Best Brownies](https://www.allrecipes.com/recipe/10549/best-brownies/)              | _Kim_                            |
+| [Pancakes 1](<https://www.allrecipes.com/thmb/jBg2wEN3X3HaYrME4D-vbX966cI=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/45396-easy-pancakes-lanacowan93-4x3-27d49508ff684023843d74f334bfc285.jpg>) | Home Carousel and Pancakes Page | [Easy Pancakes](https://www.allrecipes.com/recipe/45396/easy-pancakes/)              | _Lanacowan93_                    |
+| [Pancakes 2](<https://www.allrecipes.com/thmb/SsjoNrwCw_UzEI-piAD4nG0duLs=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/45396-easy-pancakes-DDMFS-4x3-44411f993d7841d9b2b89bcc65bdd178.jpg>)       | Pancakes Page                   | [Easy Pancakes](https://www.allrecipes.com/recipe/45396/easy-pancakes/)              | _DOTDASH MEREDITH FOOD STUDIOS _ |
 
 <br>
 <br>
@@ -83,7 +85,20 @@ One of the [lasagna images](<https://www.southernliving.com/thmb/iI2Pd7BIh0MFuQ7
 
 This image is credited to `Caitlin Bensel` and the food styling to `Torie Cox`.
 
-The author **does not imply any endorsement** by `Caitlin Bensen`, `Torie Cox` and [Southern Living]() or its users and creators.
+The image was used for educational purposed only and the author author **does not imply any endorsement** by `Caitlin Bensen`, `Torie Cox` and [Southern Living](https://www.southernliving.com/) or its users and creators.
+
+<br>
+<br>
+
+---
+
+## King Arthur Baking
+
+One of the [brownies images](https://www.kingarthurbaking.com/sites/default/files/styles/featured_image/public/recipe_legacy/1228-3-large.jpg?itok=ADPr9QfO) featured in the _Brownies Recipe Page_ is sourced from the **[Whole Grain Brownies](https://www.kingarthurbaking.com/recipes/whole-grain-brownies-recipe)** from **[King Arthur Baking](https://www.kingarthurbaking.com/)**.
+
+The official credits of the image are unknown.
+
+The image was used for educational purposed only and the author **does not imply any endorsement** by [King Arthur Baking](https://www.kingarthurbaking.com/) or its users and creators.
 
 <br>
 <br>
@@ -92,4 +107,6 @@ The author **does not imply any endorsement** by `Caitlin Bensen`, `Torie Cox` a
 
 # Disclaimer
 
-The author of this project **does not claim ownership** of any of the materials mentioned above and also **does not imply any endorsement** from their respective owners.
+All the materials mentioned above were used for educational purposes only.
+
+The author of this project **does not claim ownership** of any of said materials and also **does not imply any endorsement** from their respective owners.

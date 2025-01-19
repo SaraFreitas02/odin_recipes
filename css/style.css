@@ -5,6 +5,10 @@ body {
     align-items: center;
 }
 
+body > * {
+    box-sizing: border-box;
+}
+
 header {
     display: flex;
     justify-content: space-between;

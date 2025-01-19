@@ -65,9 +65,9 @@ The author of this project does not imply any endorsement by [All Recipes](https
 
 | Image    | Featured in                     | Sourced from    | Submitted by |
 | -------- | ------------------------------- |------------------ | ------------ |
-| Lasagna  | Home Carousel and Lasagna Page  | [World's Best Lasagna](https://www.allrecipes.com/recipe/23600/worlds-best-lasagna/) | Dotdash Meredith Food Studios |
-| Brownies | Home Carousel and Brownies Page | [Best Brownies](https://www.allrecipes.com/recipe/10549/best-brownies/) |  Kim |
-| Pancakes | Home Carousel and Pancakes Page | [Easy Pancakes](https://www.allrecipes.com/recipe/45396/easy-pancakes/) | Lanacowan93| 
+| Lasagna  | Home Carousel and Lasagna Page  | [World's Best Lasagna](https://www.allrecipes.com/recipe/23600/worlds-best-lasagna/) | *Dotdash Meredith Food Studios* |
+| Brownies | Home Carousel and Brownies Page | [Best Brownies](https://www.allrecipes.com/recipe/10549/best-brownies/) |  *Kim* |
+| Pancakes | Home Carousel and Pancakes Page | [Easy Pancakes](https://www.allrecipes.com/recipe/45396/easy-pancakes/) | *Lanacowan93*| 
 
 <br>
 <br>

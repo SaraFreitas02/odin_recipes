@@ -72,6 +72,7 @@ h2 {
   align-items: center;
   background-color: gray; /*placeholder color*/
   width: 100%;
+  box-shadow: 2px 2px 5px black;
 }
 
 .eval-btns button {
@@ -171,18 +172,62 @@ ol li::marker {
     border: solid 1px black;
     box-shadow: 1px 1px 2px darkgray;
     text-align: center;
-  }
+}
+
+/*Learn More*/
+.learn-more {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 10px 0 50px 0;
+}
+
+.learn-more > * {
+    text-align: center;
+    padding: 5px;
+    margin: 0;
+}
 
 /*Comment Section*/
 .user-comments {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: stretch;
+  width: 100%;
 }
 
-.user-and-stars {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
+.user-comments h3 {
+    font-size: 25px;
+    background-color: gray; /*placeholder color*/
+    padding: 10px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.comments-div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.comments-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    width: 100%;
+}
+
+.comment {
+   text-align: center;
+   border: solid 1px black;
+   margin: 5px;
+   padding: 5px;
+   border-radius: 10px;
+   box-shadow: 2px 2px 5px darkgray;
+}
+
+.comment-user span {
+    padding: 0 0 0 5px;
 }

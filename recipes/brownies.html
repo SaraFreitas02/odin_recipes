@@ -12,6 +12,8 @@
 </head>
 
 <body>
+
+    <!--Website Banner-->
     <header>
         <div class="brand" id="brand">
             <i class="fa-solid fa-stroopwafel" aria-hidden="true"></i>
@@ -28,60 +30,151 @@
         </div>
     </header>
 
-    <h1>Brownies</h1>
-    <img id="brownies-image"
-        src="https://www.allrecipes.com/thmb/sYsz1rtAxB8bhL5FTB-Y__HgRjw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/10549best-browniesKimvideo4x3-fc60972f21104322a02b4347b657daed.jpg"
-        alt='Brownies Image' width="500px" height="300px" />
+    <main class="recipe-main">
+        <div class="recipe-header">
 
-    <figcaption for='brownies-image'>
-        <p>Best Brownies - <a href="https://www.allrecipes.com/recipe/10549/best-brownies/" target="_blank"
-                rel="noopener noreferrer">From All Recipes</a></p>
-    </figcaption>
-    <description>
-        <p>These brownies are <em>rich, fudgy, and decadent</em>, making them the perfect treat for chocolate lovers.
-            With a simple batter that comes together quickly, you can enjoy these brownies warm from the oven or cooled
-            to perfection. The chocolate frosting adds an extra layer of sweetness and indulgence,
-            making these brownies a crowd-pleaser for any occasion.</p>
-    </description>
+            <!--Recipes Toggle-->
+            <nav class="recipe-changer">
+                <a href="#" class="back-btn" id="back-btn"><i class="fa-solid fa-arrow-left"
+                        aria-label="Previous Recipe"></i></a>
+                <h2>Brownies</h2>
+                <a href="#" class="next-btn" id="next-btn"><i class="fa-solid fa-arrow-right"
+                        aria-label="Next Recipe"></i></a>
+            </nav>
 
-    <h2>Ingredients</h2>
-    <h3>Batter</h3>
-    <ul>
-        <li>1/2 cup butter</li>
-        <li>1 cup white sugar</li>
-        <li>2 eggs</li>
-        <li>1 teaspoon vanilla extract</li>
-        <li>1/3 cup unsweetened cocoa powder</li>
-        <li>1/2 cup all-purpose flour</li>
-        <li>1/4 teaspoon salt</li>
-        <li>1/4 teaspoon baking powder</li>
-    </ul>
-    <h3>Frosting</h3>
-    <ul>
-        <li>3 tablespoons butter, softened</li>
-        <li>3 tablespoons unsweetened cocoa powder</li>
-        <li>1 tablespoon honey</li>
-        <li>1 teaspoon vanilla extract</li>
-        <li>1 cup confectioners' sugar</li>
-    </ul>
+            <!--Recipe Rating and Figcaption-->
+            <div class="recipe-rating-figcaption">
+                <figcaption for='brownies-image'>
+                    <p>Best Brownies - <a href="https://www.allrecipes.com/recipe/10549/best-brownies/" target="_blank"
+                            rel="noopener noreferrer">From All Recipes</a></p>
+                </figcaption>
+                <div class="recipe-rating"> <!-- Test of placement -->
+                    <span class="header-stars">★★★★★</span> <!-- Placeholder stars-->
+                    <span class="num-reviews">X reviews</span>
+                </div>
+            </div>
+        </div>
 
-    <h2>Preparation</h2>
-    <ol>
-        <li>Preheat oven to 350 degrees F (175 degrees C). Grease and flour an 8-inch (20 cm) square pan.</li>
-        <li>Melt 1/2 cup butter in a large saucepan. Remove from heat and mix in sugar, eggs, and 1 teaspoon vanilla
-            extract.
-            Stir in 1/3 cup cocoa powder, 1/2 cup flour, salt, and baking powder. Pour the batter into the prepared
-            pan.
-        </li>
-        <li>Bake in the preheated oven for 25 to 30 minutes. Avoid overcooking.</li>
-        <li><b>To Make Frosting:</b> Combine 3 tablespoons butter, 3 tablespoons cocoa, 1 tablespoon honey, 1
-            teaspoon
-            vanilla, and
-            1 cup confectioners' sugar. Frost brownies while they are still warm.</li>
-    </ol>
+        <div class="recipe-presentation">
 
-    <a href="https://www.allrecipes.com/recipe/10549/best-brownies/" target="_blank" rel="noopener noreferrer">Know
-        more</a>
+            <!--Carousel-->
+            <section class="recipe-carousel" id="recipe-carousel"> <!--Placeholder images-->
+                <img class="recipe-image" id="brownies1-image" name="brownies-image"
+                    src='https://www.allrecipes.com/thmb/sYsz1rtAxB8bhL5FTB-Y__HgRjw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/10549best-browniesKimvideo4x3-fc60972f21104322a02b4347b657daed.jpg'
+                    alt='Brownies Image' width="500px" height="300px" />
+                <img class="recipe-image" id="brownies2-image" name="brownies-image"
+                    src='https://www.kingarthurbaking.com/sites/default/files/styles/featured_image/public/recipe_legacy/1228-3-large.jpg?itok=ADPr9QfO'
+                    alt='Brownies Image' width="500px" height="300px" />
+            </section>
+            <!--Recipe Description and Buttons-->
+            <div class="eval-btns">
+                <button class="like-btn" type="button"><i class="fa-solid fa-heart"
+                        aria-label="Like recipe"></i></button>
+                <button class="review-btn" type="button"><i class="fa-solid fa-comment"
+                        aria-label="Leave a review"></i></button>
+            </div>
+            <description class="recipe-description" id="recipe-description">
+                <p>This brownie recipe is a <em>rich and fudgy</em> treat, perfect for satisfying your chocolate
+                    cravings. It features a dense and moist texture with a deep chocolate flavor. The combination of
+                    cocoa powder and butter creates a decadent dessert that is sure to please any chocolate lover. Enjoy
+                    these brownies on their own or with a scoop of ice cream for an extra indulgent experience.</p>
+            </description>
+        </div>
+
+        <div class="actual-recipe">
+            <div class="toggle-btns" id="toggle-btns">
+                <button class="toggle-btn" id="step-toggle-btn" type="button">
+                    <h3>INGREDIENTS</h3>
+                </button>
+                <button class="toggle-btn" id="measure-toggle-btn" type="button">Imperial Metric System</button>
+            </div>
+            <section class="ingredients" id="ingredients">
+                <div class="ingredients-list" id="ingredients-list">
+                    <ul>
+                        <li><span>1/2 cup</span> butter</li>
+                        <li><span>1 cup</span> white sugar</li>
+                        <li><span>2</span> eggs</li>
+                        <li><span>1 tsp</span> vanilla extract</li>
+                        <li><span>1/3 cup</span> unsweetened cocoa powder</li>
+                        <li><span>1/2 cup</span> all-purpose flour</li>
+                        <li><span>1/4 tsp</span> salt</li>
+                        <li><span>1/4 tsp</span> baking powder</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="preparation">
+                <ol>
+                    <li>Preheat oven to <span class="measurement-span">350°F</span>. Grease and flour an <span
+                            class="measurement-span">8 inch</span> square pan.</li>
+                    <li>In a large saucepan, melt the butter. Remove from heat, and stir in <span
+                            class="measurement-span">1 cup</span> sugar, <span class="measurement-span">2</span> eggs,
+                        and <span class="measurement-span">1 tsp</span> vanilla.</li>
+                    <li>Beat in <span class="measurement-span">1/3 cup</span> cocoa, <span class="measurement-span">1/2
+                            cup</span> flour, <span class="measurement-span">1/4 tsp</span> salt, and <span
+                            class="measurement-span">1/4 tsp</span> baking powder. Spread the batter into the prepared
+                        pan.</li>
+                    <li>Bake in preheated oven for <span>25-30 min</span>. Do not overcook.</li>
+                </ol>
+            </section>
+        </div>
+
+        <div class="learn-more">
+            <p> Would you like to learn more about this recipe? </p>
+            <p> Visit: <a href="https://www.allrecipes.com/recipe/10549/best-brownies/" target="_blank"
+                    rel="noopener noreferrer">All Recipes</a></p>
+        </div>
+
+        <section class="user-comments">
+            <h3>User's Thoughts</h3>
+            <div class="comments-div">
+
+                <div class="comments-column" id="comments-column-one">
+                    <div class="comment" id="comment1-1">
+                        <h4 class="comment-user">User <span class="comment-stars">★★★★★</span></h4>
+                        <!-- Placeholder username and stars-->
+                        <p class="comment-text">This is a comment</p> <!-- Placeholder text-->
+                    </div>
+
+                    <div class="comment" id="comment1-2">
+                        <h4 class="comment-user">User <span class="comment-stars">★★★★★</span></h4>
+                        <!-- Placeholder username and stars-->
+                        <p class="comment-text">This is a comment</p> <!-- Placeholder text-->
+                    </div>
+                </div>
+
+                <div class="comments-column" id="comments-column-two">
+                    <div class="comment" id="comment2-1">
+                        <h4 class="comment-user">User <span class="comment-stars">★★★★★</span></h4>
+                        <!-- Placeholder username and stars-->
+                        <p class="comment-text">This is a comment</p> <!-- Placeholder text-->
+                    </div>
+
+                    <div class="comment" id="comment2-2">
+                        <h4 class="comment-user">User <span class="comment-stars">★★★★★</span></h4>
+                        <!-- Placeholder username and stars-->
+                        <p class="comment-text">This is a comment</p> <!-- Placeholder text-->
+                    </div>
+                </div>
+
+                <div class="comments-column" id="comments-column-three">
+                    <div class="comment" id="comment3-1">
+                        <h4 class="comment-user">User <span class="comment-stars">★★★★★</span></h4>
+                        <!-- Placeholder username and stars-->
+                        <p class="comment-text">This is a comment</p> <!-- Placeholder text-->
+                    </div>
+
+                    <div class="comment" id="comment3-2">
+                        <h4 class="comment-user">User <span class="comment-stars">★★★★★</span></h4>
+                        <!-- Placeholder username and stars-->
+                        <p class="comment-text">This is a comment</p> <!-- Placeholder text-->
+                    </div>
+                </div>
+
+            </div>
+            </div>
+        </section>
+    </main>
+
     <script src='script.js'></script>
 </body>
 

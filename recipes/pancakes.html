@@ -12,6 +12,8 @@
 </head>
 
 <body>
+
+  <!--Website Banner-->
   <header>
     <div class="brand" id="brand">
       <i class="fa-solid fa-stroopwafel" aria-hidden="true"></i>
@@ -28,40 +30,148 @@
     </div>
   </header>
 
-  <h1>Pancakes</h1>
-  <img id="pancakes-image"
-    src='https://www.allrecipes.com/thmb/jBg2wEN3X3HaYrME4D-vbX966cI=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/45396-easy-pancakes-lanacowan93-4x3-27d49508ff684023843d74f334bfc285.jpg'
-    alt='Pancakes Image' width="500px" height="300px" />
-  <figcaption for='pancakes-image'>
-    <p>Easy Pancakes - <a href="https://www.allrecipes.com/recipe/45396/easy-pancakes/" target="_blank"
-        rel="noopener noreferrer">From All Recipes</a></p>
-  </figcaption>
-  <description>
-    <p>These pancakes are <em>light, fluffy, and perfect</em> for a quick breakfast or brunch. Serve them with your
-      favorite toppings like maple syrup, fresh berries, or whipped cream.</p>
-  </description>
+  <main class="recipe-main">
+    <div class="recipe-header">
 
-  <h2>Ingredients</h2>
-  <ul>
-    <li>1 cup all-purpose flour</li>
-    <li>2 tablespoons white sugar</li>
-    <li>2 teaspoons baking powder</li>
-    <li>1 teaspoon salt</li>
-    <li>1 egg, beaten</li>
-    <li>1 cup milk</li>
-    <li>2 tablespoons vegetable oil</li>
-  </ul>
+      <!--Recipes Toggle-->
+      <nav class="recipe-changer">
+        <a href="#" class="back-btn" id="back-btn"><i class="fa-solid fa-arrow-left"
+            aria-label="Previous Recipe"></i></a>
+        <h2>Pancakes</h2>
+        <a href="#" class="next-btn" id="next-btn"><i class="fa-solid fa-arrow-right" aria-label="Next Recipe"></i></a>
+      </nav>
 
-  <h2>Preparation</h2>
-  <ol>
-    <li>Combine flour, sugar, baking powder, and salt in a large bowl. Create a well in the center and add milk, egg,
-      and oil. Stir until the mixture is smooth.</li>
-    <li>Preheat a lightly greased griddle or frying pan over medium-high heat. Pour or ladle the batter onto the
-      griddle, using about 1/4 cup for each pancake. Cook until golden brown on both sides and serve warm.</li>
-  </ol>
+      <!--Recipe Rating and Figcaption-->
+      <div class="recipe-rating-figcaption">
+        <figcaption for='pancakes-image'></figcaption>
+        <p>Easy Pancakes - <a href="https://www.allrecipes.com/recipe/45396/easy-pancakes/" target="_blank"
+            rel="noopener noreferrer">From All Recipes</a></p>
+        </figcaption>
+        <div class="recipe-rating"> <!-- Test of placement -->
+          <span class="header-stars">★★★★★</span> <!-- Placeholder stars-->
+          <span class="num-reviews">X reviews</span>
+        </div>
+      </div>
+    </div>
 
-  <a href="https://www.allrecipes.com/recipe/45396/easy-pancakes/" target="_blank" rel="noopener noreferrer">Know
-    more</a>
+    <div class="recipe-presentation">
+
+      <!--Carousel-->
+      <section class="recipe-carousel" id="recipe-carousel"> <!--Placeholder images-->
+        <img class="recipe-image" id="pancakes1-image" name="pancakes-image"
+          src='https://www.allrecipes.com/thmb/jBg2wEN3X3HaYrME4D-vbX966cI=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/45396-easy-pancakes-lanacowan93-4x3-27d49508ff684023843d74f334bfc285.jpg'
+          alt='Pancakes Image' width="500px" height="300px" />
+        <img class="recipe-image" id="pancakes2-image" name="pancakes-image"
+          src='https://www.allrecipes.com/thmb/pZtxkWhiaZdUmdhgv-Pj9EIMbVY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/45396-easy-pancakes-DDMFS-4x3-44411f993d7841d9b2b89bcc65bdd178.jpg'
+          alt='Pancakes Image' width="500px" height="300px" />
+      </section>
+
+      <!--Recipe Description and Buttons-->
+      <div class="eval-btns">
+        <button class="like-btn" type="button"><i class="fa-solid fa-heart" aria-label="Like recipe"></i></button>
+        <button class="review-btn" type="button"><i class="fa-solid fa-comment"
+            aria-label="Leave a review"></i></button>
+      </div>
+      <description class="recipe-description" id="recipe-description">
+      <p>This pancake recipe is an <em>easy and delicious</em> breakfast option, perfect for starting your day off
+        right. It features a light and fluffy texture with a hint of sweetness. The combination of flour, sugar, and
+        baking powder creates a classic pancake that is sure to please everyone. Enjoy these pancakes with your favorite
+        toppings such as syrup, fresh fruit, or whipped cream.</p>
+      </description>
+
+      <!--Recipe Ingredients and Preparation-->
+      <div class="actual-recipe">
+        <div class="toggle-btns" id="toggle-btns">
+          <button class="toggle-btn" id="step-toggle-btn" type="button">
+            <h3>INGREDIENTS</h3>
+          </button>
+          <button class="toggle-btn" id="measure-toggle-btn" type="button">Imperial Metric System</button>
+        </div>
+        <section class="ingredients" id="ingredients">
+          <div class="ingredients-list" id="ingredients-list">
+            <ul>
+              <li><span>1.5 cup</span> all-purpose flour</li>
+              <li><span>3.5 tsp</span> baking powder</li>
+              <li><span>1 tsp</span> salt</li>
+              <li><span>1 tbsp</span> white sugar</li>
+              <li><span>1.25 cup</span> milk</li>
+              <li><span>1</span> egg</li>
+              <li><span>3 tbsp</span> butter, melted</li>
+            </ul>
+          </div>
+        </section>
+        <section class="preparation">
+          <ol>
+            <li>In a large bowl, sift together the flour, baking powder, salt, and sugar.</li>
+            <li>Make a well in the center and pour in the milk, egg, and melted butter; mix until smooth.</li>
+            <li>Heat a lightly oiled griddle or frying pan over medium-high heat.</li>
+            <li>Pour or scoop the batter onto the griddle, using approximately 1/4 cup for each pancake. Brown on both
+              sides and serve hot.</li>
+          </ol>
+        </section>
+      </div>
+
+
+      <!--Learn More-->
+      <div class="learn-more">
+        <p> Would you like to learn more about this recipe? </p>
+        <p> Visit: <a href="https://www.allrecipes.com/recipe/45396/easy-pancakes/" target="_blank"
+            rel="noopener noreferrer">All Recipes</a></p>
+      </div>
+
+
+
+      <!--User Comments-->
+      <section class="user-comments">
+        <h3>User's Thoughts</h3>
+        <div class="comments-div">
+
+          <div class="comments-column" id="comments-column-one">
+            <div class="comment" id="comment1-1">
+              <h4 class="comment-user">User <span class="comment-stars">★★★★★</span></h4>
+              <!-- Placeholder username and stars-->
+              <p class="comment-text">This is a comment</p> <!-- Placeholder text-->
+            </div>
+
+            <div class="comment" id="comment1-2">
+              <h4 class="comment-user">User <span class="comment-stars">★★★★★</span></h4>
+              <!-- Placeholder username and stars-->
+              <p class="comment-text">This is a comment</p> <!-- Placeholder text-->
+            </div>
+          </div>
+
+          <div class="comments-column" id="comments-column-two">
+            <div class="comment" id="comment2-1">
+              <h4 class="comment-user">User <span class="comment-stars">★★★★★</span></h4>
+              <!-- Placeholder username and stars-->
+              <p class="comment-text">This is a comment</p> <!-- Placeholder text-->
+            </div>
+
+            <div class="comment" id="comment2-2">
+              <h4 class="comment-user">User <span class="comment-stars">★★★★★</span></h4>
+              <!-- Placeholder username and stars-->
+              <p class="comment-text">This is a comment</p> <!-- Placeholder text-->
+            </div>
+          </div>
+
+          <div class="comments-column" id="comments-column-three">
+            <div class="comment" id="comment3-1">
+              <h4 class="comment-user">User <span class="comment-stars">★★★★★</span></h4>
+              <!-- Placeholder username and stars-->
+              <p class="comment-text">This is a comment</p> <!-- Placeholder text-->
+            </div>
+
+            <div class="comment" id="comment3-2">
+              <h4 class="comment-user">User <span class="comment-stars">★★★★★</span></h4>
+              <!-- Placeholder username and stars-->
+              <p class="comment-text">This is a comment</p> <!-- Placeholder text-->
+            </div>
+          </div>
+
+        </div>
+    </div>
+    </section>
+  </main>
   <script src='script.js'></script>
 </body>
 

@@ -1,8 +1,14 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
 body {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow-x: hidden;
 }
 
 body > * {
@@ -11,11 +17,19 @@ body > * {
 
 header {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     background-color: gray; /* this is a placeholder color*/
     width: 100%;
     box-shadow: 2px 2px 5px black;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
 
 button { /*button reset*/
@@ -65,7 +79,7 @@ button { /*button reset*/
     justify-content: center;
 }
 
-.navbar { /*Decide if home exclusive or equal across pages*/
+.navbar { /*Decide if navbar is home exclusive or equal across pages*/
     display: flex;
     justify-content: center;
     width: 100%;
@@ -116,3 +130,68 @@ button { /*button reset*/
     bottom: -70px;
     border-radius: 50% 50% 0 0;
 }
+
+/*Footer*/
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: gray; /* this is a placeholder color*/
+    width: 100%;
+    height: auto;
+    box-shadow: 2px -2px 5px black;
+    margin: 300px 0 0 0;
+}
+
+footer * {
+    color: black; /* this is a placeholder color*/
+}
+
+footer > *:not(:last-child) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.footer-links > *, .footer-social > * {
+    margin: 0;
+    font-size: 18px;
+}
+
+.footer-links > * {
+    padding: 30px 10px 0 10px;
+}
+
+
+.footer-social > * {
+    padding: 20px 5px 0 5px;
+}
+
+.footer-credits {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0 20px 0;
+}
+
+.footer-credits >  * {
+    text-align: center;
+    margin: 0;
+}
+
+.footer-credits :first-child {
+    font-size: 17px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.footer-credits :last-child {
+    font-size: 15px;
+}
+
+
+

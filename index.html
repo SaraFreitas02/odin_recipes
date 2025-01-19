@@ -12,51 +12,51 @@
 
 <body>
   <header>
-    <div class="brand" id="brand">
-      <i class="fa-solid fa-stroopwafel" aria-hidden="true"></i>
-      <h1>din Recipes</h1>
-    </div>
-    <div class="header-btns">
-      <button class="account-btn" type="button"><i class="fa-solid fa-user" aria-label="My Account"></i></button>
-      <div class="header-search">
-        <input type="search" placeholder="What are you craving?" />
-        <button type="button"><i class="fa-solid fa-magnifying-glass" aria-label="Search a Recipe"></i></button>
+    <section class="banner" id="banner">
+      <div class="brand" id="brand">
+        <i class="fa-solid fa-stroopwafel" aria-hidden="true"></i>
+        <h1>din Recipes</h1>
       </div>
-    </div>
+      <div class="header-btns">
+        <button class="account-btn" type="button"><i class="fa-solid fa-user" aria-label="My Account"></i></button>
+        <div class="header-search">
+          <input type="search" placeholder="What are you craving?" />
+          <button type="button"><i class="fa-solid fa-magnifying-glass" aria-label="Search a Recipe"></i></button>
+        </div>
+      </div>
+    </section>
+    <section class="navbar" id="navbar">
+      <div id="home-favorites" class="home-section">
+        <h2>User Favorites</h2>
+        <nav id="home-favorites-recipes" class="home-recipes">
+          <a href="recipes/lasagna.html">Lasagna</a>
+          <a href="recipes/brownies.html">Brownies</a>
+          <a href="recipes/pancakes.html">Pancakes</a>
+          <a href="#">More</a>
+        </nav>
+      </div>
+      <div id="home-winter" class="home-section">
+        <h2>Winter Vibes</h2>
+        <nav id="home-winter-recipes" class="home-recipes">
+          <a href="#">Hot Chocolate</a>
+          <a href="#">Vegetable Soup</a>
+          <a href="#">Chicken Stew</a>
+          <a href="#">More</a>
+        </nav>
+      </div>
+      <div id="home-celebration" class="home-section">
+        <h2>Celebrations</h2>
+        <nav id="home-celebration-recipes" class="home-recipes">
+          <a href="#">Roasted Turkey</a>
+          <a href="#">Butter Fried Shrimps</a>
+          <a href="#">Birthday Muffins</a>
+          <a href="#">More</a>
+        </nav>
+      </div>
+    </section>
   </header>
 
-  <div class="navbar">
-    <div id="home-favorites" class="home-section">
-      <h2>User Favorites</h2>
-      <nav id="home-favorites-recipes" class="home-recipes">
-        <a href="recipes/lasagna.html">Lasagna</a>
-        <a href="recipes/brownies.html">Brownies</a>
-        <a href="recipes/pancakes.html">Pancakes</a>
-        <a href="#">More</a>
-      </nav>
-    </div>
-
-    <div id="home-winter" class="home-section">
-      <h2>Winter Vibes</h2>
-      <nav id="home-winter-recipes" class="home-recipes">
-        <a href="#">Hot Chocolate</a>
-        <a href="#">Vegetable Soup</a>
-        <a href="#">Chicken Stew</a>
-        <a href="#">More</a>
-      </nav>
-    </div>
-
-    <div id="home-celebration" class="home-section">
-      <h2>Celebrations</h2>
-      <nav id="home-celebration-recipes" class="home-recipes">
-        <a href="#">Roasted Turkey</a>
-        <a href="#">Butter Fried Shrimps</a>
-        <a href="#">Birthday Muffins</a>
-        <a href="#">More</a>
-      </nav>
-    </div>
-  </div>
-
+<div id="layout-div"> <!--This div exists to avoid overflow of the ::after and ::before elements and properly center the carousel-->
   <div class="home-img-div">
     <!--The images are placeholders for testing-->
     <img
@@ -70,8 +70,33 @@
       width="400px" height="300px" alt="Pancakes Image" />
     <img
       src="https://www.allrecipes.com/thmb/9asU3B3QJXll3ZdLb2SepIiCkmc=/800x533/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/1722180507052IMG_8671683_4-Ingredient-Hamburger-Casserole-4x3-cropped-37142ccc6fca4df8b0ea79be5a05d0a6.jpg"
-      width="400px" height="300px" alt="Placeholder Image" />
+      width="400px" height="300px" alt="Hamburger Casserole Image" />
+    </div>
   </div>
+
+  <footer>
+    <nav class="footer-links">
+      <a href="#">About Us</a>
+      <a href="#">Contact Information</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms of Service</a>
+      <a href="#">License</a>
+    </nav>
+    <nav class="footer-social">
+      <!--Mockup Links-->
+      <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook" aria-label="Facebook"></i></a>
+      <a href="#"><i class="fa-brands fa-x-twitter" aria-label="Twitter"></i></a>
+      <a href="#"><i class="fa-brands fa-instagram" aria-label="Instagram"></i></a>
+
+      <!--Author Links-->
+      <a href="https://github.com/SaraFreitas02"><i class="fa-brands fa-github" aria-label="Project Author's GitHub"></i></a>
+      <a href="https://www.linkedin.com/in/sara-freitas-02575b31b/"><i class="fa-brands fa-linkedin" aria-label="Project Author's LinkedIn"></i></a>
+    </nav>
+    <div class="footer-credits">
+      <p>&copy; 2025 Sara Freitas</p> 
+      <p>This is a demonstration project for a recipe website.</p>
+    </div>
+  </footer>
 
   <script src='script.js'></script>
 </body>

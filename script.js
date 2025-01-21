@@ -35,6 +35,8 @@ window.onerror = function () {
         </div>`;
 };
 
+/* Needs fixing for interfering with index.html
+
 // Handle toggle buttons
 const toggleBtns = Array.from(document.getElementsByClassName("toggle-btn"));
 
@@ -72,3 +74,4 @@ toggleBtns[1].addEventListener("click", () => {
  
   });
 });
+*/

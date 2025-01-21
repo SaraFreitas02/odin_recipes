@@ -34,3 +34,41 @@ window.onerror = function () {
             <p>We're experiencing an issue with loading the page. Please try refreshing or ensure JavaScript is enabled.</p>
         </div>`;
 };
+
+// Handle toggle buttons
+const toggleBtns = Array.from(document.getElementsByClassName("toggle-btn"));
+
+const measurements = Array.from(
+  document.getElementsByClassName("measurement-span")
+);
+const ingredients = document.getElementById("ingredients");
+const preparation = document.getElementById("preparation");
+
+if (
+  !ingredients ||
+  !preparation ||
+  toggleBtns.length < 1 ||
+  measurements.length < 1
+) {
+  throw new Error("Missing elements for toggling");
+}
+
+// Toggle between ingredients and preparation
+toggleBtns[0].addEventListener("click", () => {
+  if (ingredients.classList.contains("hidden")) {
+    ingredients.classList.remove("hidden");
+    preparation.classList.add("hidden");
+  } else {
+    ingredients.classList.add("hidden");
+    preparation.classList.remove("hidden");
+  }
+});
+
+// Toggle between metric and imperial measurements
+toggleBtns[1].addEventListener("click", () => {
+  measurements.forEach((measurement) => {
+   
+    //algorithm to be implemented
+ 
+  });
+});

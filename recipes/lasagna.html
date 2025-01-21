@@ -5,33 +5,34 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name='description' content='Lasagna Recipe'>
+
   <link rel='stylesheet' type='text/css' href='../css/style.css' />
   <link rel='stylesheet' type='text/css' href='../css/recipe.css' />
   <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
   <script src="https://kit.fontawesome.com/214a5eb11d.js" crossorigin="anonymous"></script>
+  
   <title>Lasagna</title>
+
+  <!--JavaScript Required Message-->
+  <noscript>
+    <style>
+      body {
+        display: none;
+      }
+    </style>
+    <div style="text-align: center; font-family: Arial, sans-serif; margin-top: 50px;">
+      <h1>JavaScript is Required</h1>
+      <p>This website requires JavaScript to function properly. Please enable JavaScript in your browser settings and
+        refresh the page.</p>
+    </div>
+  </noscript>
+
 </head>
 
 <body>
 
   <!--Website Banner-->
-  <header>
-    <section class="banner" id="banner">
-      <div class="brand" id="brand">
-        <i class="fa-solid fa-stroopwafel" aria-hidden="true"></i>
-        <a href="../index.html">
-          <h1>din Recipes</h1>
-        </a>
-      </div>
-      <div class="header-btns">
-        <button class="account-btn" type="button"><i class="fa-solid fa-user" aria-label="My Account"></i></button>
-        <div class="header-search">
-          <input type="search" placeholder="What are you craving?" />
-          <button type="button"><i class="fa-solid fa-magnifying-glass" aria-label="Search a Recipe"></i></button>
-        </div>
-      </div>
-    </section>
-  </header>
+  <header id="header"></header>
 
   <main class="recipe-main">
     <div class="recipe-header">
@@ -209,32 +210,11 @@
       </div>
     </section>
   </main>
-  <footer>
-    <nav class="footer-links">
-      <a href="#">About Us</a>
-      <a href="#">Contact Information</a>
-      <a href="#">Privacy Policy</a>
-      <a href="#">Terms of Service</a>
-      <a href="#">License</a>
-    </nav>
-    <nav class="footer-social">
-      <!--Mockup Links-->
-      <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook" aria-label="Facebook"></i></a>
-      <a href="#"><i class="fa-brands fa-x-twitter" aria-label="Twitter"></i></a>
-      <a href="#"><i class="fa-brands fa-instagram" aria-label="Instagram"></i></a>
 
-      <!--Author Links-->
-      <a href="https://github.com/SaraFreitas02"><i class="fa-brands fa-github"
-          aria-label="Project Author's GitHub"></i></a>
-      <a href="https://www.linkedin.com/in/sara-freitas-02575b31b/"><i class="fa-brands fa-linkedin"
-          aria-label="Project Author's LinkedIn"></i></a>
-    </nav>
-    <div class="footer-credits">
-      <p>&copy; 2025 Sara Freitas</p>
-      <p>This is a demonstration project for a recipe website.</p>
-    </div>
-  </footer>
-  <script src='script.js'></script>
+  <!--Website Footer-->
+  <footer id="footer"></footer>
+
+  <script src='../script.js'></script>
 </body>
 
 </html>

@@ -10,7 +10,7 @@
 ---
 
 # ODIN RECIPES 
- _Last Updated: 21-01-2025 | 13H23 (CET)_ 
+ _Last Updated: 21-01-2025 | 15h25 (CET)_ 
 
 <br>
 <br>
@@ -125,15 +125,18 @@ Happy coding!
 
 ## Code of Conduct
 
-As a community, we should aim to foster an open and welcoming environment. `By participating in this project in any way, you agree to abide by the following code of conduct`:
+This project adheres to a _Code of Conduct_ designed to foster a `welcoming, inclusive, and respectful environment` for all participants. 
 
-- **Be Respectful**: Treat everyone with respect. Harassment, discrimination, or any form of abusive behavior will not be tolerated.
-- **Be Inclusive**: Encourage a diverse and inclusive community. Welcome contributions from people of all backgrounds and experiences.
-- **Be Constructive**: Provide constructive feedback and be open to receiving it. Aim to improve the project and help others grow.
-- **Be Professional**: Maintain a professional attitude in all interactions. Avoid personal attacks and focus on the issue at hand.
-- **Report Issues**: If you witness or experience any violations of this code of conduct, please report them to the project maintainers.
+Key principles include, but are not limited to:
 
-By adhering to these guidelines, we can create a positive and productive environment for everyone involved.
+- **Respectful Communication:** Engage constructively and avoid personal attacks.
+- **Inclusivity:** Value diverse perspectives and ensure no one feels excluded.
+- **Accountability:** Take responsibility for actions and work to maintain a collaborative atmosphere.
+- **Unacceptable Behaviors:** Harassment, discrimination, or disruptive actions will not be tolerated.
+
+Maintainers are `responsible for enforcing these standards` and ensuring the community remains safe and productive. 
+
+For full details, please refer to the [Code of Conduct file](/docs/CodeOfConduct.md).
 
 <br>
 
@@ -143,16 +146,25 @@ By adhering to these guidelines, we can create a positive and productive environ
 
 - The information used in this document and repository is for `educational purposes and personal learning` as part of an assignment from The Odin Project.
 
+<br>
+
 - While the structure or topics may be similar to other assignments, the `code and implementation are original`.
 
-- `Recipes are sourced from All Recipes` and are used solely for educational purposes.
-  Media and icons are also sourced externally. For more information, visit the [Attributions File](./docs/ATTRIBUTIONS.md).
+<br>
+
+- `Recipes are sourced from All Recipes` and are used solely for educational purposes. Media and icons are also sourced externally. For more information, please visit the [Attributions File](./docs/ATTRIBUTIONS.md).
+
+<br>
 
 - The content is provided "as is" `without warranties` and may not be suitable for production use. The `user assumes all responsibility` for ensuring the code and content meet their requirements.
 
+<br>
+
 - The authors or contributors are `not liable for any damages` arising from the use or inability to use the information provided.
 
-For more information visit the [Disclaimer File](./docs/DISCLAIMER.md).
+<br>
+
+For more information, please visit the [Disclaimer File](./docs/DISCLAIMER.md).
 
 <br>
 
@@ -166,7 +178,7 @@ The software is provided "as is", without warranty of any kind.
 
 **Disclaimer:** Before using this material, please ensure that you fully understand the terms of the license.
 
-For more details, visit the [License file](./docs/LICENSE).
+For more details, please refer to the [License file](./docs/LICENSE).
 
 ---
 

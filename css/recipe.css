@@ -1,3 +1,5 @@
+@import "/css/animations.css";
+
 /*Main*/
 main {
   display: flex;
@@ -26,6 +28,11 @@ main {
 .recipe-changer > * {
   padding: 0 50px 0 50px;
   margin: 0;
+}
+
+.recipe-changer i {
+  color: #275837;
+  text-shadow: 1px -1px 3px #333333, 1px 1px black, -1px -1px black;
 }
 
 .recipe-changer > a > i {
@@ -57,7 +64,10 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 0 25px 0;
+  padding: 0;
+  margin-bottom: 25px;
+  box-shadow: 2px 2px 5px #333333;
+  height: 300px;
 }
 
 .recipe-description {
@@ -70,14 +80,17 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: gray; /*placeholder color*/
+  background-color: #275837; 
   width: 100%;
-  box-shadow: 2px 2px 5px black;
+  box-shadow: 2px 2px 5px #333333;
+  border-radius: 20px;
 }
 
 .eval-btns button {
-  font-size: 20px;
+  font-size: 23px;
   padding: 8px 20px 8px 20px;
+  color: #e5e5e5;
+  text-shadow: 1px 1px black, -1px -1px black, 1px -1px #333333;
 }
 
 /*Recipe*/
@@ -86,29 +99,34 @@ h2 {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  border: solid 1px black;
-  box-shadow: 3px 3px 5px darkgray;
+  border: solid 1px #275837;
+  box-shadow: 2px 2px 5px #333333;
   height: 500px;
   width: 1000px;
   position: relative;
   border-radius: 20px;
+  background-color: #2758370d;
 }
 
 .toggle-btns {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    padding: 20px 0 20px 0;;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px 0 20px 0;
 }
 
 .toggle-btns button {
-    border: solid 1px black;
-    box-shadow: 1px 1px 2px darkgray;
-    border-radius: 5px;
-    padding: 5px 10px 5px 10px;
-    margin: 5px;
+  border: solid 1px black;
+  box-shadow: 1px 1px 2px #333333;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+  margin: 5px;
+  background-color: #275837;
+  color: white;
+  text-shadow: 1px 1px black, -1px -1px black;
+  z-index: 10000;
 }
 
 .ingredients {
@@ -146,7 +164,6 @@ ul {
   left: 0;
   z-index: 10;
   padding: 40px 20px 0 20px;
-  visibility: hidden;
 }
 
 .preparation li {
@@ -156,22 +173,23 @@ ul {
 }
 
 ol {
-    list-style-type: decimal;
-    list-style-position: inside;
+  list-style-type: decimal;
+  list-style-position: inside;
 }
 
 ol li::marker {
-    font-weight: bold;
-    font-size: 18px;
+  font-weight: bold;
+  font-size: 18px;
 }
 
-.ingredients span, .preparation span {
-    padding: 0 5px 0 5px;
-    margin-right: 5px;
-    width: 60px;
-    border: solid 1px black;
-    box-shadow: 1px 1px 2px darkgray;
-    text-align: center;
+.ingredients span,
+.preparation span {
+  padding: 0 5px 0 5px;
+  margin-right: 5px;
+  width: 60px;
+  border: solid 1px #333333;
+  box-shadow: 1px 1px 2px dark#76c893;
+  text-align: center;
 }
 
 /*Learn More*/
@@ -184,9 +202,9 @@ ol li::marker {
 }
 
 .learn-more > * {
-    text-align: center;
-    padding: 5px;
-    margin: 0;
+  text-align: center;
+  padding: 5px;
+  margin: 0;
 }
 
 /*Comment Section*/
@@ -199,35 +217,44 @@ ol li::marker {
 }
 
 .user-comments h3 {
-    font-size: 25px;
-    background-color: gray; /*placeholder color*/
-    padding: 10px;
-    box-shadow: 2px 2px 5px black;
+  font-size: 25px;
+  background-color: #275837; /*placeholder color*/
+  padding: 15px;
+  box-shadow: 2px 2px 5px #333333;
+  border-radius: 20px;
+  color: #e5e5e5;
+  text-shadow: 1px 1px 3px black, -1px -1px 3px black;
 }
 
 .comments-div {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .comments-column {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: stretch;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  width: 100%;
 }
 
 .comment {
-   text-align: center;
-   border: solid 1px black;
-   margin: 5px;
-   padding: 5px;
-   border-radius: 10px;
-   box-shadow: 2px 2px 5px darkgray;
+  text-align: center;
+  border: solid 1px #333333;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px dark#76c893;
 }
 
 .comment-user span {
-    padding: 0 0 0 5px;
+  padding: 0 0 0 5px;
+}
+
+
+/*Other*/
+.hidden {
+  visibility: hidden;
 }

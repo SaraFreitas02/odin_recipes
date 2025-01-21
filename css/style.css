@@ -20,9 +20,10 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: gray; /* this is a placeholder color*/
+    background-color: #275837; /* this is a placeholder color*/
     width: 100%;
-    box-shadow: 2px 2px 5px black;
+    box-shadow: 2px 2px 6px #333333;
+    border: 2px solid black;
 }
 
 .banner {
@@ -47,11 +48,12 @@ button { /*button reset*/
 
 .brand a {
     text-decoration: none;
-    color: black; /* this is a placeholder color*/
 }
 
 .brand > i, h1 {
     font-size: 45px;
+    color: #e2e2e2;
+    text-shadow: 2px 2px  black, -2px -2px black;
 }
 
 .brand > i {
@@ -66,8 +68,10 @@ button { /*button reset*/
 }
 
 .header-btns button {
-    font-size: 23px;
+    font-size: 30px;
     padding: 10px;
+    color: #e2e2e2;
+    text-shadow: 2px 2px  black, -2px -2px black;
 }
 
 .account-btn {
@@ -86,6 +90,15 @@ button { /*button reset*/
     background-color: gray; /* this is a placeholder color*/
     padding: 50px 0 20px 0;
 }
+
+img {
+    object-fit: cover;
+    border: 1px solid #333333;
+  }
+
+  a {
+    color:#275837;
+  }
 
 
 /*Home*/
@@ -137,7 +150,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: gray; /* this is a placeholder color*/
+    background-color: #275837;
     width: 100%;
     height: auto;
     box-shadow: 2px -2px 5px black;
@@ -145,7 +158,8 @@ footer {
 }
 
 footer * {
-    color: black; /* this is a placeholder color*/
+    color: #e2e2e2;
+    text-shadow: 1px 1px black, -1px -1px black, 1px -1px 3px#333333;
 }
 
 footer > *:not(:last-child) {
@@ -164,7 +178,6 @@ footer > *:not(:last-child) {
     padding: 30px 10px 0 10px;
 }
 
-
 .footer-social > * {
     padding: 20px 5px 0 5px;
 }
@@ -178,7 +191,7 @@ footer > *:not(:last-child) {
     padding: 20px 0 20px 0;
 }
 
-.footer-credits >  * {
+.footer-credits > * {
     text-align: center;
     margin: 0;
 }

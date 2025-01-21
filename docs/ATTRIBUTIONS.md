@@ -35,7 +35,7 @@ This project utilizes the following icons from [Font Awesome](https://fontawesom
 
 | Icon             | Class                          | Use                           | Place          |
 | ---------------- | ------------------------------ | ----------------------------- | -------------- |
-| Stroopwafel      | _fa-solid fa-stroopwafel_      | Simulate a logo               | Website Header |
+| Stroopwafel      | _fa-solid fa-stroopwafel_      | Simulate a logo               | Website Header + Favicon |
 | User             | _fa-solid fa-user_             | Account button                | Website Header |
 | Magnifying Glass | _fa-solid fa-magnifying-glass_ | Search button                 | Website Header |
 | Left Arrow       | _fa-solid fa-arrow-left_       | Change recipe                 | Recipes page   |

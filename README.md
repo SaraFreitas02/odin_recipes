@@ -9,7 +9,7 @@
 
 ---
 
-# ODIN RECIPES 
+# ODIN RECIPES *(in development)*
  _Last Updated: 21-01-2025 | 15h25 (CET)_ 
 
 <br>

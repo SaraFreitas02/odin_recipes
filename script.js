@@ -26,6 +26,8 @@ if (footer) {
     });
 }
 
+/* comment out during development so the page always loads
+
 // Handle general JavaScript errors
 window.onerror = function () {
   document.body.innerHTML = `
@@ -34,9 +36,10 @@ window.onerror = function () {
             <p>We're experiencing an issue with loading the page. Please try refreshing or ensure JavaScript is enabled.</p>
         </div>`;
 };
-
+*/
 
 // Handle toggle buttons
+//maybe move to a script separate from the main one so that the homepage (that never has this elements) doesn't throw an error and always loads
 const toggleBtns = Array.from(document.getElementsByClassName("toggle-btn"));
 
 const measurements = Array.from(
@@ -45,7 +48,7 @@ const measurements = Array.from(
 const ingredients = document.getElementById("ingredients");
 const preparation = document.getElementById("preparation");
 
-if (
+if ( 
   !ingredients ||
   !preparation ||
   toggleBtns.length < 1 ||

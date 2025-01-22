@@ -1,15 +1,38 @@
-# ATTRIBUTIONS 
-_Last Updated: 20-01-2025 | 20h48 (CET)_
+# ATTRIBUTIONS
+
+_Last Updated: 22-01-2025 | 21h07 (CET)_
 
 <br>
 
-| **Table of Contents**                     |
-| ----------------------------------------- |
-| [Font Awesome](#font-awesome)             |
-| [All Recipes](#all-recipes)               |
-| [Southern Living](#southern-living)       |
-| [King Arthur Baking](#king-arthur-baking) |
-| [Disclaimer](#disclaimer)                 |
+| **Table of Contents**                         |
+| --------------------------------------------- |
+| [Contributor Covenant](#contributor-covenant) |
+| [Font Awesome](#font-awesome)                 |
+| [All Recipes](#all-recipes)                   |
+| [Southern Living](#southern-living)           |
+| [King Arthur Baking](#king-arthur-baking)     |
+| [Disclaimer](#disclaimer)                     |
+
+<br>
+
+---
+
+## Contributor Covenant
+
+The **Code of Conduct** used in this project is adapted from the [Contributor Covenant website](https://www.contributor-covenant.org/) version 1.4. It is a widely adopted *code of conduct* for open source projects.
+
+The author **does not imply any endorsement** by the [Contributor Covenant](https://www.contributor-covenant.org/).
+
+### License
+
+The Contributor Covenant is provided under the [Creative Commons License - Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/).
+
+This license allows users to `copy and redistribute, remix, transform, and build upon` the material for any purpose, even commercially, as long as appropriate credit and attribution are provided.
+
+For more information about this license, please visit the [License's Deed](https://creativecommons.org/licenses/by/4.0/) or the [Legal Code](https://creativecommons.org/licenses/by/4.0/legalcode.en).
+
+<br>
+
 
 <br>
 
@@ -33,20 +56,20 @@ For more information about this license visit the [License's Deed](https://creat
 
 This project utilizes the following icons from [Font Awesome](https://fontawesome.com/):
 
-| Icon             | Class                          | Use                           | Place          |
-| ---------------- | ------------------------------ | ----------------------------- | -------------- |
+| Icon             | Class                          | Use                           | Place                    |
+| ---------------- | ------------------------------ | ----------------------------- | ------------------------ |
 | Stroopwafel      | _fa-solid fa-stroopwafel_      | Simulate a logo               | Website Header + Favicon |
-| User             | _fa-solid fa-user_             | Account button                | Website Header |
-| Magnifying Glass | _fa-solid fa-magnifying-glass_ | Search button                 | Website Header |
-| Left Arrow       | _fa-solid fa-arrow-left_       | Change recipe                 | Recipes page   |
-| Right Arrow      | _fa-solid fa-arrow-right_      | Change recipe                 | Recipes page   |
-| Heart            | _fa-solid fa-heart_            | Like recipe                   | Recipes page   |
-| Comment          | _fa-solid fa-comment_          | Leave a review                | Recipes page   |
-| Facebook Logo    | _fa-brands fa-facebook_        | Redirect to facebook          | Website Footer |
-| Instagram Logo   | _fa-brands fa-instagram_       | Redirect to instagram         | Website Footer |
-| X Logo           | _fa-brands fa-x-twitter_       | Redirect to X                 | Website Footer |
-| Github Logo      | _fa-brands fa-github_          | Redirect to author's github   | Website Footer |
-| Linkedin Logo    | _fa-brands fa-linkedin_        | Redirect to author's linkedin | Website Footer |
+| User             | _fa-solid fa-user_             | Account button                | Website Header           |
+| Magnifying Glass | _fa-solid fa-magnifying-glass_ | Search button                 | Website Header           |
+| Left Arrow       | _fa-solid fa-arrow-left_       | Change recipe                 | Recipes page             |
+| Right Arrow      | _fa-solid fa-arrow-right_      | Change recipe                 | Recipes page             |
+| Heart            | _fa-solid fa-heart_            | Like recipe                   | Recipes page             |
+| Comment          | _fa-solid fa-comment_          | Leave a review                | Recipes page             |
+| Facebook Logo    | _fa-brands fa-facebook_        | Redirect to facebook          | Website Footer           |
+| Instagram Logo   | _fa-brands fa-instagram_       | Redirect to instagram         | Website Footer           |
+| X Logo           | _fa-brands fa-x-twitter_       | Redirect to X                 | Website Footer           |
+| Github Logo      | _fa-brands fa-github_          | Redirect to author's github   | Website Footer           |
+| Linkedin Logo    | _fa-brands fa-linkedin_        | Redirect to author's linkedin | Website Footer           |
 
 <br>
 <br>
